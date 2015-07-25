@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension 
+	version="3.1"
+	type="plugin"
+	group="content">
+	<name>Content - Display Console Commands</name>
+	<author>Nicolas Bernaerts</author>
+	<creationDate>July 2015</creationDate>
+	<copyright>Copyright (C) 2015 - Nicolas Bernaerts</copyright>
+	<license>GNU General Public License version 2 or later; see LICENSE.txt</license>
+	<authorEmail>nicolas.bernaerts@laposte.net</authorEmail>
+	<authorUrl>bernaerts.dyndns.org</authorUrl>
+	<version>1.0.0</version>
+	<description>This plugin displays console content in specific window</description>
+	<files>
+		<filename plugin="displayconsole">displayconsole.php</filename>
+		<filename>displayconsole.css</filename>
+		<filename>class-console.png</filename>
+		<filename>class-linux.png</filename>
+		<filename>class-debian.png</filename>
+		<filename>class-ubuntu.png</filename>
+		<filename>class-nas.png</filename>
+		<filename>index.html</filename>
+	</files>
+</extension>
