@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension 
+	version="3.1"
+	type="plugin"
+	group="content">
+	<name>Content - Display File Content</name>
+	<author>Nicolas Bernaerts</author>
+	<creationDate>July 2015</creationDate>
+	<copyright>Copyright (C) 2015 - Nicolas Bernaerts</copyright>
+	<license>GNU General Public License version 2 or later; see LICENSE.txt</license>
+	<authorEmail>nicolas.bernaerts@laposte.net</authorEmail>
+	<authorUrl>bernaerts.dyndns.org</authorUrl>
+	<version>1.0.0</version>
+	<description>This plugin displays any file content, including from external source like Github</description>
+	<files>
+		<filename plugin="displayfile">displayfile.php</filename>
+		<filename>displayfile.css</filename>
+		<filename>class-none.png</filename>
+		<filename>class-ini.png</filename>
+		<filename>class-shell.png</filename>
+		<filename>source-http.png</filename>
+		<filename>source-https.png</filename>
+		<filename>source-github.png</filename>
+		<filename>index.html</filename>
+	</files>
+</extension>
