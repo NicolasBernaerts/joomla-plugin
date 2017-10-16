@@ -124,6 +124,7 @@ class PlgContentDisplayFile extends JPlugin
 					{
 						// replace spaces by unbreakable spaces and HTML end of line
 						$strLine = str_replace (' ', '&nbsp;', $strLine);
+						$strLine = str_replace ('\t', '&nbsp;&nbsp;&nbsp;&nbsp;', $strLine);
 						$strLine = str_replace ('$', '&#36;', $strLine);
 						$strContent .= trim ($strLine) . "<br />\n"; 
 					}
