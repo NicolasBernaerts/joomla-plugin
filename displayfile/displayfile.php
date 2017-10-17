@@ -122,11 +122,13 @@ class PlgContentDisplayFile extends JPlugin
 					$strContent = "";
 					foreach ($arrLines as $strLine) 
 					{
-						// replace spaces, tabs, $ and add HTML end of line
+						// replace specific caracters with their HTML version
 						$strLine = str_replace (' ', '&nbsp;', $strLine);
-						$strLine = str_replace ('\t', '&nbsp;&nbsp;&nbsp;&nbsp;', $strLine);
 						$strLine = str_replace ('$', '&#36;', $strLine);
-						$strContent .= trim ($strLine) . "<br />\n"; 
+						$strLine = str_replace ('<', '&#60;', $strLine);
+						$strLine = str_replace ('>', '&#62;', $strLine);
+						$strLine = str_replace ("\t", '&nbsp;&nbsp;&nbsp;&nbsp;', $strLine);
+						$strContent .= trim ($strLine) . "<br />\n";
 					}
 				}
 
