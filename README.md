@@ -8,5 +8,5 @@ These plugins have been developped to :
   * Content - Display Console Commands : Display a console terminal for shell commands
 
 Implementation of sthese plugins is explained in details in articles available under : 
-  * http://bernaerts.dyndns.org/linux
+  * http://www.bernaerts-nicolas.fr/linux
 
